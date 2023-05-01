@@ -10,6 +10,10 @@
   background-image: linear-gradient(to right, #af2081, #de3372);
   height: 50vh;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8em;
 }
 
 .back-div-2 {
