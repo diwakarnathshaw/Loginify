@@ -4,3 +4,16 @@
   box-sizing: border-box;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.back-div-1 {
+  color: #fff;
+  background-image: linear-gradient(to right, #af2081, #de3372);
+  height: 50vh;
+  width: 100%;
+}
+
+.back-div-2 {
+  background: #ccc;
+  height: 50vh;
+  width: 100%;
+}
