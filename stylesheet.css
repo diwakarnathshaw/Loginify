@@ -5,21 +5,37 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.back-div-1 {
-  color: #fff;
-  background-image: linear-gradient(to right, #af2081, #de3372);
+.back {
   height: 50vh;
   width: 100%;
+  color: #fff;
+}
+
+.padding-all-2 {
+  padding: 2rem;
+}
+
+.border-radius-15 {
+  border-radius: 15px;
+}
+
+.border-radius-5 {
+  border-radius: 5px;
+}
+
+.div-1 {
+  background-image: linear-gradient(to right, #af2081, #de3372);
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.8em;
 }
 
-.back-div-2 {
+.div-2 {
   background: #ccc;
-  height: 50vh;
-  width: 100%;
+}
+
+.div-1 h2 {
+  font-size: 3em;
 }
 
 .login-form-div {
@@ -29,10 +45,8 @@
   background: #e8e6e3;
   width: 60%;
   height: auto;
-  border-radius: 15px;
   box-shadow: -3px -3px 5px rgba(0, 0, 0, 0.4);
   display: flex;
-  padding: 2rem;
   align-items: center;
 }
 
@@ -63,7 +77,6 @@
   font-size: 1.1em;
   color: #555;
   font-weight: 600;
-  border-radius: 5px;
   border: none;
 }
 
@@ -79,7 +92,7 @@ a:hover {
   text-decoration: none;
 }
 
-input[type=submit] {
+.primary-btn {
   display: block;
   margin-top: 1rem;
   background: #de3372;
@@ -92,7 +105,7 @@ input[type=submit] {
   cursor: pointer;
 }
 
-input[type=submit]:hover {
+.primary-btn:hover {
   animation-name: fill-background;
   animation-duration: 0.5s;
   animation-timing-function: linear;
