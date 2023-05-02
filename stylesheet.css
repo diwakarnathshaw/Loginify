@@ -93,5 +93,19 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #af2081;
+  animation-name: fill-background;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+/* CSS Animation */
+@keyframes fill-background {
+  from {
+    background: #de3372;
+  }
+
+  to {
+    background: #af2081;
+  }
 }
