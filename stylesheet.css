@@ -99,6 +99,24 @@ input[type=submit]:hover {
   animation-fill-mode: forwards;
 }
 
+/* css for mobile screen design */
+@media(max-width: 830px) {
+  .login-form-div {
+    width: 90%;
+    left: 5%;
+  }
+
+  .login-form-div .card {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .form-input {
+    width: 100%;
+  }
+}
+
 /* CSS Animation */
 @keyframes fill-background {
   from {
