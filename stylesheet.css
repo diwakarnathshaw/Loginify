@@ -25,10 +25,38 @@
 .login-form-div {
   position: absolute;
   top: 35%;
-  left: 15%;
+  left: 25%;
   background: #e8e6e3;
-  width: 70%;
-  height: 30%;
+  width: 50%;
+  height: auto;
   border-radius: 15px;
   box-shadow: -3px -3px 5px rgba(0, 0, 0, 0.4);
+  display: flex;
+  padding: 3rem;
+  align-items: center;
+}
+
+.login-form-div form {
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.form-label {
+  display: inline-block;
+  font-size: 1.1em;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.form-input {
+  width: 70%;
+  height: 40px;
+  display: inline;
+  margin-bottom: 15px;
 }
