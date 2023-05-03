@@ -40,3 +40,21 @@ body
     font-size: 2em;
     color: #fff;
 }
+.container .login .inputBx
+{
+    position: relative;
+    width: 100%;
+}
+.container .login .inputBx input
+{
+    position: relative;
+    width: 100%;
+    padding: 12px 20px;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    font-size: 1.2em;
+    color: #fff;
+    box-shadow: none;
+    outline: none;
+}
