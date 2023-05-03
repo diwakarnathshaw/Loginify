@@ -24,6 +24,19 @@ body
     justify-content: center;
     align-items: center;
 }
+.container i
+{
+    position: absolute;
+    inset: 0;
+    border: 2px solid #fff;
+    transition: 0.5s;
+}
+.container:hover i
+{
+    border: 6px solid var(--clr);
+    filter: drop-shadow(0 0 20px var9--clr);
+}
+
 .container .login
 {
     position: absolute;
